@@ -541,7 +541,7 @@ char *yytext;
 
 int charPos = 1;
 int strMaxLen = 100; 
-int strPos = 1;
+int strPos = 1;     // 记录字符串的pos
 char *str = NULL;
 
 int count = 0;
@@ -878,7 +878,7 @@ YY_RULE_SETUP
 case 4:
 YY_RULE_SETUP
 #line 65 "tiger.lex"
-//widows下\r\n linux\n 吃掉可能多余的\r 下同
+
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
